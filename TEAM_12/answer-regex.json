@@ -1,22 +1,22 @@
 [ 
     {
       "name": "TEAM_12_FLASHCARD_QUESTION",
-      "pattern": "die frage ist (.*)",
+      "pattern": "(?:die) fragekarte ist (.*)",
       "entities": ["quiz"]
     },
     {
       "name": "TEAM_12_FLASHCARD_ANSWER",
-      "pattern": "die antwort ist (.*)",
+      "pattern": "(?:die) antwortkarte ist (.*)",
       "entities": ["answer"]
     },
     {
       "name": "TEAM_12_FLASHCARD_TOPIC",
-      "pattern": "das thema ist (.*)",
+      "pattern": "(?:das) (?:thema|subjekt) ist (.*)",
       "entities": ["topic"]
     },
     {
       "name": "TEAM_12_FLASHCARD_REVIEW_ANSWER",
-      "pattern": "meine antwort ist (.*)",
+      "pattern": "(?:meine|die) antwort ist (.*)",
       "entities": ["answer"]
     }
 ]
